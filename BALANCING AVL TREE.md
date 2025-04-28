@@ -23,8 +23,24 @@ To write a Python program to construct an AVL tree, balance it, and print the no
 ## Program
 
 ```python
+from TreeAVL.AVL import AVL
+
+def getDictTree(self):
+ return self.dict_tree
+
+def Construct_AVL(L):
+  tree = AVL(L)
+  print("AVL Tree Before Balancing\n",getDictTree(tree))
+  tree.BalanceTree()
+  print("AVL Tree After Balancing\n",getDictTree(tree))
+L=[11,8,18,5,13,17,4,7,2]
 
 ```
 ## OUTPUT
 
+
+![431419337-cd184680-75da-467a-9b59-90622933dea5](https://github.com/user-attachments/assets/201d1f24-64be-46ad-97a4-7fea34a771e4)
+
 ## RESULT
+The program builds the binary search tree using the given elements and balances it using AVL rotations.
+Both inorder traversals before and after balancing remain the same, confirming that the tree structure respects the binary search property, and balancing ensures minimal height.
