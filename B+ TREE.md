@@ -178,8 +178,9 @@ if __name__ == '__main__':
 
 ## OUTPUT
 
-![Uploading 431421994-9d744617-dc17-450e-81f7-7f53984a531a.png…]()
+![431421994-9d744617-dc17-450e-81f7-7f53984a531a](https://github.com/user-attachments/assets/f0043a31-544b-48da-9aa2-caae5085fa6f)
 
 
 
 ## RESULT
+The program is successfully completed.The B+ Tree was constructed using the given key–value pairs provided by the user.Keys were inserted in order while maintaining B+ Tree properties. The tree structure is printed level by level after insertion.
